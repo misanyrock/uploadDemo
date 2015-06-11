@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87408971B2731EB00697E1E /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E87408961B2731EB00697E1E /* demo.jpg */; };
+		E8A8DE691B270A46008469BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8DE681B270A46008469BE /* main.m */; };
+		E8A8DE6C1B270A46008469BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8DE6B1B270A46008469BE /* AppDelegate.m */; };
+		E8A8DE6F1B270A46008469BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8DE6E1B270A46008469BE /* ViewController.m */; };
+		E8A8DE721B270A46008469BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A8DE701B270A46008469BE /* Main.storyboard */; };
+		E8A8DE741B270A46008469BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A8DE731B270A46008469BE /* Images.xcassets */; };
+		E8A8DE771B270A46008469BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8A8DE751B270A46008469BE /* LaunchScreen.xib */; };
+		E8A8DE831B270A46008469BE /* _1_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8DE821B270A46008469BE /* _1_______Tests.m */; };
+		E8A8DE8D1B270A75008469BE /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A8DE8C1B270A75008469BE /* 001.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8A8DE7D1B270A46008469BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8A8DE5B1B270A46008469BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A8DE621B270A46008469BE;
+			remoteInfo = "01-上传单个文件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E87408961B2731EB00697E1E /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+		E8A8DE631B270A46008469BE /* 02-上传多个个文件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-上传多个个文件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A8DE671B270A46008469BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A8DE681B270A46008469BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8A8DE6A1B270A46008469BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8A8DE6B1B270A46008469BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8A8DE6D1B270A46008469BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8A8DE6E1B270A46008469BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8A8DE711B270A46008469BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8A8DE731B270A46008469BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8A8DE761B270A46008469BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E8A8DE7C1B270A46008469BE /* 02-上传多个个文件.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-上传多个个文件.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A8DE811B270A46008469BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A8DE821B270A46008469BE /* _1_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_______Tests.m"; sourceTree = "<group>"; };
+		E8A8DE8C1B270A75008469BE /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8A8DE601B270A46008469BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A8DE791B270A46008469BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8A8DE5A1B270A46008469BE = {
+			isa = PBXGroup;
+			children = (
+				E8A8DE651B270A46008469BE /* 02-上传多个文件 */,
+				E8A8DE7F1B270A46008469BE /* 02-上传多个文件Tests */,
+				E8A8DE641B270A46008469BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8A8DE641B270A46008469BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8DE631B270A46008469BE /* 02-上传多个个文件.app */,
+				E8A8DE7C1B270A46008469BE /* 02-上传多个个文件.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8A8DE651B270A46008469BE /* 02-上传多个文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8DE6A1B270A46008469BE /* AppDelegate.h */,
+				E8A8DE6B1B270A46008469BE /* AppDelegate.m */,
+				E8A8DE6D1B270A46008469BE /* ViewController.h */,
+				E8A8DE6E1B270A46008469BE /* ViewController.m */,
+				E8A8DE701B270A46008469BE /* Main.storyboard */,
+				E8A8DE731B270A46008469BE /* Images.xcassets */,
+				E8A8DE751B270A46008469BE /* LaunchScreen.xib */,
+				E8A8DE661B270A46008469BE /* Supporting Files */,
+			);
+			path = "02-上传多个文件";
+			sourceTree = "<group>";
+		};
+		E8A8DE661B270A46008469BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87408961B2731EB00697E1E /* demo.jpg */,
+				E8A8DE8C1B270A75008469BE /* 001.png */,
+				E8A8DE671B270A46008469BE /* Info.plist */,
+				E8A8DE681B270A46008469BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8A8DE7F1B270A46008469BE /* 02-上传多个文件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8DE821B270A46008469BE /* _1_______Tests.m */,
+				E8A8DE801B270A46008469BE /* Supporting Files */,
+			);
+			path = "02-上传多个文件Tests";
+			sourceTree = "<group>";
+		};
+		E8A8DE801B270A46008469BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8DE811B270A46008469BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8A8DE621B270A46008469BE /* 02-上传多个个文件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A8DE861B270A46008469BE /* Build configuration list for PBXNativeTarget "02-上传多个个文件" */;
+			buildPhases = (
+				E8A8DE5F1B270A46008469BE /* Sources */,
+				E8A8DE601B270A46008469BE /* Frameworks */,
+				E8A8DE611B270A46008469BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-上传多个个文件";
+			productName = "01-上传单个文件";
+			productReference = E8A8DE631B270A46008469BE /* 02-上传多个个文件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8A8DE7B1B270A46008469BE /* 02-上传多个个文件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A8DE891B270A46008469BE /* Build configuration list for PBXNativeTarget "02-上传多个个文件Tests" */;
+			buildPhases = (
+				E8A8DE781B270A46008469BE /* Sources */,
+				E8A8DE791B270A46008469BE /* Frameworks */,
+				E8A8DE7A1B270A46008469BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8A8DE7E1B270A46008469BE /* PBXTargetDependency */,
+			);
+			name = "02-上传多个个文件Tests";
+			productName = "01-上传单个文件Tests";
+			productReference = E8A8DE7C1B270A46008469BE /* 02-上传多个个文件.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8A8DE5B1B270A46008469BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CXC;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = china;
+				TargetAttributes = {
+					E8A8DE621B270A46008469BE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E8A8DE7B1B270A46008469BE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E8A8DE621B270A46008469BE;
+					};
+				};
+			};
+			buildConfigurationList = E8A8DE5E1B270A46008469BE /* Build configuration list for PBXProject "02-上传多个个文件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8A8DE5A1B270A46008469BE;
+			productRefGroup = E8A8DE641B270A46008469BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8A8DE621B270A46008469BE /* 02-上传多个个文件 */,
+				E8A8DE7B1B270A46008469BE /* 02-上传多个个文件Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8A8DE611B270A46008469BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A8DE721B270A46008469BE /* Main.storyboard in Resources */,
+				E87408971B2731EB00697E1E /* demo.jpg in Resources */,
+				E8A8DE771B270A46008469BE /* LaunchScreen.xib in Resources */,
+				E8A8DE741B270A46008469BE /* Images.xcassets in Resources */,
+				E8A8DE8D1B270A75008469BE /* 001.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A8DE7A1B270A46008469BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8A8DE5F1B270A46008469BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A8DE6F1B270A46008469BE /* ViewController.m in Sources */,
+				E8A8DE6C1B270A46008469BE /* AppDelegate.m in Sources */,
+				E8A8DE691B270A46008469BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A8DE781B270A46008469BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A8DE831B270A46008469BE /* _1_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8A8DE7E1B270A46008469BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A8DE621B270A46008469BE /* 02-上传多个个文件 */;
+			targetProxy = E8A8DE7D1B270A46008469BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8A8DE701B270A46008469BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A8DE711B270A46008469BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8A8DE751B270A46008469BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A8DE761B270A46008469BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8A8DE841B270A46008469BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8A8DE851B270A46008469BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8A8DE871B270A46008469BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-上传多个文件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "02-上传多个个文件";
+			};
+			name = Debug;
+		};
+		E8A8DE881B270A46008469BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-上传多个文件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "02-上传多个个文件";
+			};
+			name = Release;
+		};
+		E8A8DE8A1B270A46008469BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-上传多个文件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "02-上传多个个文件";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-上传多个个文件.app/02-上传多个个文件";
+			};
+			name = Debug;
+		};
+		E8A8DE8B1B270A46008469BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-上传多个文件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "02-上传多个个文件";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-上传多个个文件.app/02-上传多个个文件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8A8DE5E1B270A46008469BE /* Build configuration list for PBXProject "02-上传多个个文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A8DE841B270A46008469BE /* Debug */,
+				E8A8DE851B270A46008469BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A8DE861B270A46008469BE /* Build configuration list for PBXNativeTarget "02-上传多个个文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A8DE871B270A46008469BE /* Debug */,
+				E8A8DE881B270A46008469BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A8DE891B270A46008469BE /* Build configuration list for PBXNativeTarget "02-上传多个个文件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A8DE8A1B270A46008469BE /* Debug */,
+				E8A8DE8B1B270A46008469BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8A8DE5B1B270A46008469BE /* Project object */;
+}
